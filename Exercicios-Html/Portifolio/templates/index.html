@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="neon-text">Bem-Vindo</div>
+    </div>
+
+    <section id="projetos">
+
+        <div>
+           <img src="../static/img/jogo de dados.jpg" height= 100px alt="Imagem do primeiro projeto">
+           <h2>Projeto 1</h2>
+           <p>Projeto que simula um jogo de dados. Feito em python</p>
+           <a href="https://github.com/Jean-Martins22/Exercicios-Python/blob/main/Projeto_02.py" target="_blank"><button>Veja mais</button></a>
+        </div>
+  
+        <div>
+           <img src="../static/img/rocket league.jpg" height= 100px alt="Imagem do segundo projeto">
+           <h2>Projeto 2</h2>
+           <p>Projeto que simula uma competição esportiva. Feito em python</p>
+           <a href="https://github.com/Jean-Martins22/Exercicios-Python/blob/main/Projeto_03.py" target="_blank"><button>Veja mais</button></a>
+        </div>
+  
+        <div>
+           <img src="../static/img/votacao.jpg" height= 100px alt="Imagem do terceiro projeto">
+           <h2>Projeto 3</h2>
+           <p>Projeto que simula uma votação. Feito em python</p>
+           <a href="https://github.com/Jean-Martins22/Exercicios-Python/blob/main/Projeto_04.py" target="_blank"><button>Veja mais</button></a>
+        </div>
+  
+        <div>
+           <img src="../static/img/humor.jpg" height= 100px alt="Imagem do quarto projeto">
+           <h2>Projeto 4</h2>
+           <p>Projeto que mostra a troca de humor de um personagem. Feito em Html</p>
+           <a href="https://github.com/Jean-Martins22/Exercicios-Html/tree/main/Jogo-Do-Humor" target="_blank"><button>Veja mais</button></a>
+        </div>
+
+     </section>
+
+     <section id="habilidades">
+
+        <h2>Habilidades Técnicas</h2>
+  
+        <p>HTML 5</p>
+        <div>
+           <span id="html5">15%</span>
+        </div>
+  
+        <p>CSS 3</p>
+        <div>
+           <span id="css3">20%</span>
+        </div>
+  
+        <p>JavaScript</p>
+        <div>
+           <span id="js">10%</span>
+        </div>
+  
+        <p>Python</p>
+        <div>
+           <span id="python">40%</span>
+        </div>
+  
+        <p>Flask</p>
+        <div>
+           <span id="flask">5%</span>
+        </div>
+  
+     </section>
+
+     <section id="contato">
+
+      <div id="redes">
+         <h3>Se conecte comigo </h3>
+         <a href="https://www.linkedin.com/in/jean-martins-5275a1213/" target="_blank">
+            <i aria-hidden="true">Linkedin</i>
+         </a>
+
+         <a href="https://github.com/Jean-Martins22" target="_blank">
+            <i aria-hidden="true">Github</i>
+         </a>
+
+         <a href="https://www.instagram.com/jean_marttiins/" target="_blank">
+            <i aria-hidden="true">Instagram</i>
+         </a>
+      </div>
+
+      <h3>Mande uma mensagem</h3>
+
+      <form action="/send" method="POST">
+         <label for="nome">Nome</label>
+         <input type="text" placeholder="Digite seu nome" id="nome" name="nome">
+
+         <label for="email">E-mail</label>
+         <input type="email" placeholder="Digite seu email" id="email" name="email">
+
+
+         <label for="mensagem">Mensagem</label>
+         <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+         <button type="submit" id="enviar">Enviar</button>
+
+      </form>
+
+      <div id="carregamento">
+         <p>Enviando mensagem</p>
+         <div id="loader"></div>
+      </div>
+      
+   </section>
+
+     <script src='../static/js/script.js'></script>
+</body>
+
+</html>
